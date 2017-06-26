@@ -26,7 +26,7 @@ github_username:  wlqsmiling
 
 # Build settings
 markdown: kramdown
-theme: Minima
+theme: Midnight
 gems:
   - jekyll-feed
 exclude:
