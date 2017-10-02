@@ -1,29 +1,35 @@
-# Jekyll configuration
-
-name: Xixia
-description: Welcome to Xixia！
-
-# url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
-
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: '/jekyll-xixia'
-## default date_format
-date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
-# Language
-lan: "en" 
-
-paginate: 10
-
-highlighter: rouge
+title: Your Title
+description: > # this means to ignore newlines until "baseurl:"
+  Your description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "Your-Link.github.io" # the base hostname & protocol for your site
+# Build settings
 markdown: kramdown
-gems: ['jekyll-paginate']
 
-exclude: ['README.md', 'LICENSE', "*.bak"]
+facebook:
+  app_id: 
+
+logo: "../css/2016_style/img/icon-large.png"
+
+social: 
+  name: Your Facebook Page
+  link: "https://www.facebook.com/"
+
+google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: ['_2016_pages', '_2017_pages']
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com
+  - title: twitter
+    url: https://twitter.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
