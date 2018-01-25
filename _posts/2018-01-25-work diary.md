@@ -1,0 +1,5 @@
+- 商城分金币商城和钥匙商城，完成这两种商城。
+- 金币场开发会议 jsdoc(后续研究)。
+- webstorm eslint没提示原因：设置里面把scripts目录excluded了。
+- cc creator文字外描边：添加LabelOutline组件。
+- sohu vpn: https://vpn.sohu-inc.com/
