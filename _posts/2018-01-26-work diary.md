@@ -1,0 +1,3 @@
+- 完成金币商城和钥匙商城。
+- webstorm2017.3.3不好升级，破解的软件不要随便升级。
+- webstorm 格式化代码：code - Auto-Indent Lines.
