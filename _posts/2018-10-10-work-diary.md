@@ -1,4 +1,5 @@
-# title 
+# git简介 
+***
 - https://geektutu.com/post/git-four-areas-five-states.html
 - 四个区
    - 工作区
@@ -13,5 +14,8 @@
    - 已推送(Pushed)
 
  # linux 命令格式
+ ***
  - []可写可不写
- - 
+ - {}必须选一个
+ - <> 表示里面的元素是必须的
+ - ...表示前述元素可以多次重复
