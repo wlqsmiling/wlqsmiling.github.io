@@ -1,0 +1,3 @@
+- https://www.cnblogs.com/yuanyq/p/3435022.html
+- 目录权限要是可搜索的。
+- 有问题查看日志，日志文件地址在配置文件里面
