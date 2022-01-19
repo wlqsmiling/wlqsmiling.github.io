@@ -1,5 +1,9 @@
-# URL types
+# ios info plist
+
+## URL types
+
 - other app to your app
 
-# LSApplicationQueriesSchemes
+## LSApplicationQueriesSchemes
+
 - you app to other app
