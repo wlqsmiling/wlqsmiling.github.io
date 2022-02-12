@@ -10,7 +10,7 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)<
 - Error3:AppURL 常量写法不能用变量+字符串常量
 - typealias 不能用
 - ignore extention错误解决，查看映射表文档
-- 代码中的类名字被混淆，但是storyboard中对应class未修改
+- 代码中的类名字被混淆，但是storyboard中对应class未修改,手动添加
 - packages 需要ignore
 - 必须实现的重写方法被混淆@resultBuilder，buildBlock方法
 - 文件名依然可见
