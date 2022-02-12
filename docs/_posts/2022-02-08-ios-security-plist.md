@@ -4,10 +4,12 @@
 
 - 代码混淆 <https://github.com/rockbruno/swiftshield>
 - example:XiaoiceiOSLibrary,xeva
-- xeva:ld: in /Users/liqunwu/xiaobing/XEva_iOS/XEva.App.IOS/UMFramework/UMShare/UMShare.framework/UMShare(UMSocialGlobal.o), building for iOS Simulator, but linking in object file built for iOS, file '/Users/liqunwu/xiaobing/XEva_iOS/XEva.App.IOS/UMFramework/UMShare/UMShare.framework/UMShare' for architecture arm64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-- <https://stackoverflow.com/questions/63607158/xcode-12-building-for-ios-simulator-but-linking-in-an-object-file-built-for-io>
-
+- Error1: xeva:ld: in /Users/liqunwu/xiaobing/XEva_iOS/XEva.App.IOS/UMFramework/UMShare/UMShare.framework/UMShare(UMSocialGlobal.o), building for iOS Simulator, but linking in object file built for iOS, file '/Users/liqunwu/xiaobing/XEva_iOS/XEva.App.IOS/UMFramework/UMShare/UMShare.framework/UMShare' for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)<https://stackoverflow.com/questions/63607158/xcode-12-building-for-ios-simulator-but-linking-in-an-object-file-built-for-io>
+- Error2:UserDefaultKeys 常量写法不能用变量+字符串常量
+- Error3:AppURL 常量写法不能用变量+字符串常量
+- typealias 不能用
+- ignore extention错误解决，查看映射表文档
 - 代码中的类名字被混淆，但是storyboard中对应class未修改
 - packages 需要ignore
 - 必须实现的重写方法被混淆@resultBuilder，buildBlock方法
