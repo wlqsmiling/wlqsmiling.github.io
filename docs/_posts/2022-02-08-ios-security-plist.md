@@ -3,16 +3,23 @@
 ## code obfuscation <https://github.com/rockbruno/swiftshield>
 
 - Requirements & Limitations
-- example:XiaoiceiOSLibrary,xeva,
+- example:XiaoiceiOSLibrary,xeva,island
 - Error1: xeva:ld: (UMSocialGlobal.o), building for iOS Simulator, but linking in object file built for iOS <https://stackoverflow.com/questions/63607158/xcode-12-building-for-ios-simulator-but-linking-in-an-object-file-built-for-io>
 - ExtensionTarget忽略，然后对着映射表修改
 - package 忽略
 - typealias 不能用
 - storyboard中对应class未修改,手动修改
 - 必须实现的重写方法被混淆@resultBuilder，buildBlock方法
-- 文件名依然可见
+- 文件名未被混淆
 - ignore-public问题，重写父类的方法，子类public方法名字未混淆
-- symbol(s) not found for architecture x86_64 #if TARGET_IPHONE_SIMULATOR #else #endif
+- symbol(s) not found for architecture x86_64 
+
+```
+#if TARGET_IPHONE_SIMULATOR 
+#else 
+#endif
+```
+
 - <https://stackoverflow.com/questions/63267897/building-for-ios-simulator-but-the-linked-framework-framework-was-built>
 
 ## string obfuscation
