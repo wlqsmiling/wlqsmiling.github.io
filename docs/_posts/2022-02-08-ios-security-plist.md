@@ -13,9 +13,20 @@
 - 文件名未被混淆
 - ignore-public问题，重写父类的方法，子类public方法名字未混淆
 - symbol(s) not found for architecture x86_64 
+- CodingKeys
+- open class JXPhotoBrowserImageCell 实现协议
+- class MKMessage: NSObject, MessageType 实现协议，
+- protocol BaseMessage 
+- protocol public protocol MediaItem ,class MKVideoItem: NSObject, MediaItem {
+- MKMessage,Moment,MomentModel import UIKit
+- enum CodingKeys
+- 父子类public一致
+- 声网库
+- storyboard
+- xib
 
 ```
-#if TARGET_IPHONE_SIMULATOR 
+#if targetEnvironment(simulator)
 #else 
 #endif
 ```
